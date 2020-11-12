@@ -96,7 +96,7 @@ public class MapLoader {
     }
 
     static boolean isNameCorrect(String name) {
-        return Pattern.matches("([A-ZА-Я]([a-zа-я]+\\s*)){1,3}", name);
+        return Pattern.matches("(([a-zа-яA-ZА-Я]+\\s*)){1,3}", name);
 
     }
 
