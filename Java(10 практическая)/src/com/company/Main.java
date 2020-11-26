@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Какое действие сделать?");
         System.out.println("1.Создание log-файла");
         System.out.println("2.Размер кталога или файла");
-        System.out.println("3.Копирование кталога или файла");
+        System.out.println("3.Копирование каталога или файла");
         int num2 = in.nextInt();
             switch (num2) {
                 case (1): {
